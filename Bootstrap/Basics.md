@@ -9,3 +9,6 @@ Bootstrap = Responsive Web UI
   </div>
 </div>
 ```
+
+##### Resources:
+- [W3.org: Aria States and Properties](https://www.w3.org/TR/wai-aria/states_and_properties)
