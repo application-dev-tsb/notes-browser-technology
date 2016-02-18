@@ -13,6 +13,7 @@
 - Bootstrap: Forms
 - Bootstrap: Cards
 - Bootstrap: Carousel
+- Bootstrap: Pagination
 - [SASS: Installation and Setup](SASS/InstallationAndSetup.md)
 - [SASS: Basics](SASS/Basics.md)
 - SASS: Operators
