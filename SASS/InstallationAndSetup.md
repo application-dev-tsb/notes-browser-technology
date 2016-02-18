@@ -78,9 +78,9 @@ javascripts_dir = "javascripts"
 ```sass
 @import "compass";
 @import "normalize";
+@import "partials/variables";
 @import "partials/base";
 @import "partials/layout";
 @import "partials/mixin";
-@import "partials/variables";
 ```
 
