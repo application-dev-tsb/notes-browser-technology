@@ -12,3 +12,9 @@ gem install sass
 ```ruby
 gem install compass
 ```
+
+#### Setup
+- create a new sass project
+```
+compass create <project_name>
+```
