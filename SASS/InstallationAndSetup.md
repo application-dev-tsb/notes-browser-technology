@@ -22,3 +22,7 @@ compass create <project_name>
 ```
 compass watch
 ```
+- (Optional) run a simple web server
+```
+python -m SimpleHTTPServer
+```
