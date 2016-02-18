@@ -1,7 +1,9 @@
 # Basics: Bootstrap
-Bootstrap = Responsive Web UI
+- HTML5
+- Mobile first
+- Responsive CSS for Mobile and Desktop
 
-#### 12-Column Layout
+#### 12-Column Grid System
 - elements consume **x** out of **12** columns for each **row** based off the screen size
 ```html
 <div class="row">
