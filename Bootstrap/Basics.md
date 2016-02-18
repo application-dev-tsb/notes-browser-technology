@@ -13,4 +13,5 @@
 ```
 
 ##### Resources:
+- [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
 - [W3.org: Aria States and Properties](https://www.w3.org/TR/wai-aria/states_and_properties)
