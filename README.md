@@ -7,7 +7,7 @@
 
 #### CSS Libraries/Tools
 - Bootstrap: Installation and Setup
-- [Boostrap: Basics](Bootstrap/Basics.md)
+- [Bootstrap: Basics](Bootstrap/Basics.md)
 - Bootstrap: Button
 - Bootstrap: Navigation
 - Bootstrap: Forms
