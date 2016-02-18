@@ -6,6 +6,8 @@
 - Polymer: Installation and Setup
 
 #### CSS Libraries/Tools
+- Bootstrap: Installation and Setup
+- Boostrap: Basics
 - [SASS: Installation and Setup](SASS/InstallationAndSetup.md)
 - [SASS: Basics](SASS/Basics.md)
 - SASS: Operators
