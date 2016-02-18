@@ -51,7 +51,7 @@ base-project
 |-index.html
 ```
 - config.rb
-```
+```ruby
 require 'compass/import-once/activate'
 require 'support-for'
 require 'normalize-scss'
@@ -73,5 +73,14 @@ javascripts_dir = "javascripts"
   <body>
   </body>
 </html>
+```
+- styles.scss
+```sass
+@import "compass";
+@import "normalize";
+@import "partials/base";
+@import "partials/layout";
+@import "partials/mixin";
+@import "partials/variables";
 ```
 
