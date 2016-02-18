@@ -7,7 +7,7 @@
 
 #### CSS Libraries/Tools
 - Bootstrap: Installation and Setup
-- Boostrap: Basics
+- [Boostrap: Basics](Bootstrap/Basics.md)
 - [SASS: Installation and Setup](SASS/InstallationAndSetup.md)
 - [SASS: Basics](SASS/Basics.md)
 - SASS: Operators
