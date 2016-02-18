@@ -12,6 +12,11 @@ gem install sass
 ```ruby
 gem install compass
 ```
+- (Optional) install 'normalize-scss' and 'support-for'
+```ruby
+gem install normalize-scss
+gem install support-for
+```
 
 #### Setup
 - create a new sass project
@@ -26,3 +31,47 @@ compass watch
 ```
 python -m SimpleHTTPServer
 ```
+
+#### Directory Configuration
+```
+base-project
+|-sass
+|  |-partials
+|  |  |-_base.scss
+|  |  |-_layout.scss
+|  |  |-_mixins.scss
+|  |  |-_variabls.scss
+|  |
+|  |-ie.scss
+|  |-prints.scss
+|  |-screen.scss
+|  |-styles.scss
+| 
+|-config.rb
+|-index.html
+```
+- config.rb
+```
+require 'compass/import-once/activate'
+require 'support-for'
+require 'normalize-scss'
+
+http_path = "/"
+css_dir = "stylesheets"
+sass_dir = "sass"
+images_dir = "images"
+javascripts_dir = "javascripts"
+```
+- index.html
+```html
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+  <body>
+  </body>
+</html>
+```
+
