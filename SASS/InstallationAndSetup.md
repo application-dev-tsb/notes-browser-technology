@@ -18,3 +18,7 @@ gem install compass
 ```
 compass create <project_name>
 ```
+- automatically compile our project everytime we update our SASS
+```
+compass watch
+```
