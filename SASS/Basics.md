@@ -39,3 +39,35 @@ body {
  background-color: $base-color;
 }
 ```
+
+#### Nesting
+```css
+//use this css as a reference:
+body {
+ color: red;
+ background-color blue;
+}
+
+body a {
+ color: white;
+}
+
+body h1 {
+ color: blue;
+}
+```
+- nesting provides a clear nested way to visualize a hierarchy
+```scss
+body {
+ color: red;
+ background-color: blue;
+ 
+ a {
+  color: white;
+ }
+ 
+ h1 {
+  color: blue;
+ }
+}
+```
