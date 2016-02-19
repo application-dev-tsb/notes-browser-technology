@@ -1,5 +1,10 @@
 # Browser Technologies
-#### HTML
+
+#### Basics
+HTML: List of all Tags
+CSS: Display Block
+CSS: Display Float
+CSS: Display Flex [Youtube: CSS Flex Essentials](https://www.youtube.com/watch?v=G7EIAgfkhmg)
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
