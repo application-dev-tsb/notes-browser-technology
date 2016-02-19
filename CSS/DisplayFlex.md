@@ -1,4 +1,4 @@
-# Display: flex;
+# display: flex;
 
 #### Common Properties
 - flex-direction
