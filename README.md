@@ -18,6 +18,8 @@
 - CSS: Shadow
 - CSS: Border Radius
 - CSS: Color Gradient
+- CSS: Transform (Scale, Rotate, Skew, Translate)
+- CSS: Transition
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
