@@ -12,6 +12,7 @@
 - [CSS: Display Flex](CSS/DisplayFlex.md)
 - CSS: Table Properties
 - CSS: Image Clipping
+- CSS: List Style
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
