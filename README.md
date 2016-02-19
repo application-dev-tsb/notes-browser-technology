@@ -19,7 +19,7 @@
 - CSS: Border Radius
 - CSS: Color Gradient
 - CSS: Transform (Scale, Rotate, Skew, Translate)
-- CSS: Transition
+- CSS: Transition and Animation (Keyframe)
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
