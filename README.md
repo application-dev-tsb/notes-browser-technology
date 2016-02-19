@@ -2,6 +2,7 @@
 
 #### HTML5 and CSS3
 - HTML: Basics
+- HTML: Search Engine Metadata
 - HTML: List of all Tags
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
