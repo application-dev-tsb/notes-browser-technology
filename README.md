@@ -1,7 +1,10 @@
 # Browser Technologies
 
-#### Basics
-HTML: List of all Tags
+#### HTML5 and CSS3
+- HTML: Basics
+- HTML: List of all Tags
+- CSS: Basics
+- CSS: Colors
 - CSS: Display Block
 - CSS: Display Float
 - CSS: Display Flex [Youtube: CSS Flex Essentials](https://www.youtube.com/watch?v=G7EIAgfkhmg)
