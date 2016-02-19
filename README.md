@@ -20,6 +20,7 @@
 - CSS: Color Gradient
 - CSS: Transform (Scale, Rotate, Skew, Translate)
 - CSS: Transition and Animation (Keyframe)
+- CSS: Columns
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
