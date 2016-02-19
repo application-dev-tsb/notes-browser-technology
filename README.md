@@ -14,6 +14,7 @@
 - CSS: Image Clipping
 - CSS: List Style
 - CSS: Inserting Contents and Autoincrement Counter
+- CSS: Text Decoration
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
