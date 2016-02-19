@@ -32,3 +32,9 @@ div, span, a {
 
 }
 ```
+
+#### Unit Types
+- Pixels
+- Points: 72 points = 1 inch
+- Ems: current font size
+- Percent: current font size is equal to 100%
