@@ -9,6 +9,7 @@
 - CSS: Colors
 - CSS: Display Block or Inline
 - [CSS: Display Flex](CSS/DisplayFlex.md)
+- CSS: Table Properties
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
