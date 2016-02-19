@@ -7,6 +7,8 @@
 - HTML: List of all Character Entities
 - HTML: Image and Image Map
 - HTML: Object and Embed Tags
+- HTML: Structuring Contents (Header, Main, Section Article, Aside, Navigation, Footer)
+- HTML: Lists
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
