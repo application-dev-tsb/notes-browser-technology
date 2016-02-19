@@ -16,6 +16,7 @@
 - CSS: Inserting Contents and Autoincrement Counter
 - CSS: Text Decoration
 - CSS: Shadow
+- CSS: Border Radius
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
