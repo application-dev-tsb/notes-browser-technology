@@ -6,6 +6,7 @@
 - HTML: List of all Tags
 - HTML: List of all Character Entities
 - HTML: Image and Image Map
+- HTML: Object and Embed Tags
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
