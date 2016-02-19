@@ -5,6 +5,7 @@
 - HTML: Search Engine Metadata
 - HTML: List of all Tags
 - HTML: List of all Character Entities
+- HTML: Image and Image Map
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
