@@ -11,6 +11,7 @@
 - CSS: Display Block or Inline
 - [CSS: Display Flex](CSS/DisplayFlex.md)
 - CSS: Table Properties
+- CSS: Image Clipping
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
