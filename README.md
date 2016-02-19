@@ -17,6 +17,7 @@
 - CSS: Text Decoration
 - CSS: Shadow
 - CSS: Border Radius
+- CSS: Color Gradient
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
