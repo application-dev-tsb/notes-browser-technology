@@ -4,9 +4,10 @@
 - HTML: Basics
 - HTML: List of all Tags
 - CSS: Basics
+- CSS: Selectors
+- CSS: Box (Margin, Border, Padding)
 - CSS: Colors
-- CSS: Display Block
-- CSS: Display Float
+- CSS: Display Block or Inline
 - [CSS: Display Flex](CSS/DisplayFlex.md)
 
 #### JavaScript Libraries
