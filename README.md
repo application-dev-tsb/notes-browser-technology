@@ -11,6 +11,7 @@
 - HTML: Lists
 - HTML: Table
 - HTML: Form
+- HTML: Canvas
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
