@@ -12,6 +12,7 @@
 - HTML: Table
 - HTML: Form
 - HTML: Canvas
+- HTML: Local Storage
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
