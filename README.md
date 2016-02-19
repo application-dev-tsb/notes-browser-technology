@@ -10,6 +10,7 @@
 - HTML: Structuring Contents (Header, Main, Section Article, Aside, Navigation, Footer)
 - HTML: Lists
 - HTML: Table
+- HTML: Form
 - CSS: Basics
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
