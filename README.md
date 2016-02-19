@@ -4,7 +4,7 @@
 - HTML: Basics
 - HTML: List of all Tags
 - CSS: Basics
-- CSS: Selectors
+- [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
 - CSS: Colors
 - CSS: Display Block or Inline
