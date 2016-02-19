@@ -7,6 +7,7 @@
 - [CSS: Selectors](CSS/Selectors.md)
 - CSS: Box (Margin, Border, Padding)
 - CSS: Colors
+- CSS: Positioning
 - CSS: Display Block or Inline
 - [CSS: Display Flex](CSS/DisplayFlex.md)
 - CSS: Table Properties
