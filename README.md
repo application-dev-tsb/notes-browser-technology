@@ -15,6 +15,7 @@
 - CSS: List Style
 - CSS: Inserting Contents and Autoincrement Counter
 - CSS: Text Decoration
+- CSS: Shadow
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
