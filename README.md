@@ -13,6 +13,7 @@
 - CSS: Table Properties
 - CSS: Image Clipping
 - CSS: List Style
+- CSS: Inserting Contents and Autoincrement Counter
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
