@@ -36,6 +36,7 @@
 - Bower: Installation and Setup
 - Polymer: Installation and Setup
 - [Angular2: Setup](Angular2/Setup.md)
+- [Angular2: Basics](Angular2/Basics.md)
 
 #### CSS Libraries/Tools
 - Bootstrap: Installation and Setup
