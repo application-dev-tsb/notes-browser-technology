@@ -1,5 +1,7 @@
 # Angular 2: Setup
 
+## Part 1: Initial Configuration
+
 tsconfig.json - for TypeScript compiler
 ```json
 {
@@ -73,6 +75,128 @@ npm.json - package manager configuration
   }
 }
 ```
+
+systemjs.config.js -
+```json
+(function (global) {
+
+    // map tells the System loader where to look for things
+    var map = {
+        'app': 'app', // 'dist',
+        'rxjs': 'node_modules/rxjs', 
+        'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api', 
+        '@angular': 'node_modules/@angular'
+    };
+
+    // packages tells the System loader how to load when no filename and/or no extension
+    var packages = {
+        'app': {
+            main: 'main.js', 
+            defaultExtension: 'js'
+        }, 
+        'rxjs': {
+            defaultExtension: 'js'
+        }, 
+        'angular2-in-memory-web-api': {
+            defaultExtension: 'js'
+        }
+    , };
+
+    var packageNames = [
+        '@angular/common',
+        '@angular/compiler',
+        '@angular/core',
+        '@angular/http',
+        '@angular/platform-browser',
+        '@angular/platform-browser-dynamic',
+        '@angular/router',
+        '@angular/router-deprecated',
+        '@angular/testing',
+        '@angular/upgrade'
+        ];
+
+    // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }
+    packageNames.forEach(function (pkgName) {
+        packages[pkgName] = {
+            main: 'index.js', 
+            defaultExtension: 'js'
+        };
+    });
+
+    var config = {
+        map: map, 
+        packages: packages
+    }
+
+    // filterSystemConfig - index.html's chance to modify config before we register it.
+    if (global.filterSystemConfig) {
+        global.filterSystemConfig(config);
+    }
+
+    System.config(config);
+
+})(this);
+```
+
+## Part 2: Basic Angular App
+
+index.html
+```html
+<html>
+
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+</head>
+
+<!-- 3. Display the application -->
+
+<body>
+    <my-app>Loading...</my-app>
+</body>
+
+</html>
+```
+
+app/app.component.ts
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'my-app',
+    template: '<h1>My First Angular 2 App</h1>'
+})
+
+export class AppComponent { }
+```
+
+app/main.ts
+```typescript
+import { bootstrap }    from '@angular/platform-browser-dynamic';
+import { AppComponent } from './app.component';
+
+bootstrap(AppComponent);
+```
+
+
 
 ##### Resources
 - [Angular2 Quickstart](https://angular.io/docs/ts/latest/quickstart.html)
