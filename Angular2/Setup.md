@@ -76,7 +76,7 @@ npm.json - package manager configuration
 }
 ```
 
-systemjs.config.js -
+systemjs.config.js - some magical stuffs
 ```json
 (function (global) {
 
@@ -138,6 +138,11 @@ systemjs.config.js -
 })(this);
 ```
 
+##### Load the Dependencies
+```
+npm install
+```
+
 ## Part 2: Basic Angular App
 
 index.html
@@ -194,6 +199,11 @@ import { bootstrap }    from '@angular/platform-browser-dynamic';
 import { AppComponent } from './app.component';
 
 bootstrap(AppComponent);
+```
+
+##### Run the App for Development
+```
+npm start
 ```
 
 
