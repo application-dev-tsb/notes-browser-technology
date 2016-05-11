@@ -1,7 +1,14 @@
 # Angular2: Basic Concepts
 
-## Two-way Binders
+## Property Binders
 Binds the DOM element to a variable
+
+#### One-way Binder
+```
+<li [class.selected]="hero === selectedHero">
+```
+
+#### Two-way Binder
 ```
 <input [(ngModel)]="myVariable">
 ```
@@ -25,3 +32,6 @@ Binds events to functions
 ```
 <li (click)="onSelect(hero)">
 ```
+
+##### Resources:
+- [Property Binders](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#property-binding)
