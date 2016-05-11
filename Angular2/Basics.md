@@ -4,3 +4,15 @@
 ```
 <input [(ngModel)]="myVariable">
 ```
+
+#### Repeater
+```
+<li *ngFor="let hero of heroes">
+  {{hero.name}}
+</li>
+```
+
+#### Event Handler
+```
+<li (click)="onSelect(hero)">
+```
