@@ -5,11 +5,16 @@
 <input [(ngModel)]="myVariable">
 ```
 
-#### Repeater
+#### Repeater/For
 ```
 <li *ngFor="let hero of heroes">
   {{hero.name}}
 </li>
+```
+
+#### Conditional
+```
+<div *ngIf="selectedHero">
 ```
 
 #### Event Handler
