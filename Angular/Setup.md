@@ -1,6 +1,6 @@
 # Angular: Setup (Using Angular CLI)
 
-## Prerequisites
+## Prerequisites after installing NodeJS 6
 ```sh
 npm install -g @angular/cli
 ```
@@ -8,6 +8,15 @@ npm install -g @angular/cli
 ## Create a new Project
 ```sh
 ng new PROJECT-NAME
+```
+
+## Start the Project in Development Mode
+```sh
+npm start
+
+or
+
+ng serve
 ```
 
 
