@@ -46,6 +46,8 @@ constructor(private heroService: HeroService) { }
 ## Lifecycle Hooks
 A component has a lifecycle managed by Angular.
 
+## Routing and Navigation
+[Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
 
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)

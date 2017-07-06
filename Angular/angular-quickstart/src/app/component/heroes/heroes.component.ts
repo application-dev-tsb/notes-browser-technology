@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 import { Hero } from '../../model/hero';
 import { HeroService } from '../../service/hero.service';
@@ -11,7 +11,9 @@ import { HeroService } from '../../service/hero.service';
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
-  selectedHero: Hero;
+
+  @Output()
+  selectedHero = new EventEmitter<Hero>();
 
   constructor(private heroService: HeroService) { }
 
@@ -21,7 +23,7 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void {
     console.log("selected: " + hero);
-  	this.selectedHero = hero;
+  	this.selectedHero.emit(hero);
   }
 
   getHeroes(): void {
