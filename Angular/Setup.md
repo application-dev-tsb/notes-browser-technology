@@ -13,10 +13,6 @@ ng new PROJECT-NAME
 ## Start the Project in Development Mode
 ```sh
 npm start
-
-or
-
-ng serve
 ```
 
 

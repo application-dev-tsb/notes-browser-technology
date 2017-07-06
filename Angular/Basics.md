@@ -1,37 +1,31 @@
-# Angular2: Basic Concepts
+# Angular: Basic Concepts
 
-## Property Binders
-Binds the DOM element to a variable
+## Directives
+An Attribute directive changes the appearance or behavior of a DOM element.
 
-#### One-way Binder
-```
-<li [class.selected]="hero === selectedHero">
-```
-
-#### Two-way Binder
-```
-<input [(ngModel)]="myVariable">
+#### Components
+directives with a template.
+```html
 ```
 
-## Structural Directives
-Changes the structure of the DOM, ussually starts with *
-#### Repeater/For
-```
-<li *ngFor="let hero of heroes">
-  {{hero.name}}
-</li>
-```
+#### Structural directives
+change the DOM layout by adding and removing DOM elements.
 
-#### Conditional
-```
-<div *ngIf="selectedHero">
-```
+#### Attribute directives
+change the appearance or behavior of an element, component, or another directive.
+```typescript
+import { Directive, ElementRef, Input } from '@angular/core';
 
-## Event Binders
-Binds events to functions
+@Directive({ selector: '[myHighlight]' })
+export class HighlightDirective {
+    constructor(el: ElementRef) {
+       el.nativeElement.style.backgroundColor = 'yellow';
+    }
+}
 ```
-<li (click)="onSelect(hero)">
+```html
+<p myHighlight>Highlight me!</p>
 ```
 
 ##### Resources:
-- [Property Binders](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#property-binding)
+- [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
