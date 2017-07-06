@@ -7,8 +7,11 @@ export class HeroService {
 
   constructor() { }
 
-  getHeroes(): Hero[] {
-    return HEROES.map(x => new Hero(x.id, x.name));
+  getHeroes(): Promise<Hero[]> {
+    //return Promise.resolve(HEROES.map(x => new Hero(x.id, x.name)));
+    return new Promise(resolve => {
+      setTimeout(() => resolve(HEROES.map(x => new Hero(x.id, x.name))), 2000);
+    });
   }
 
 }
