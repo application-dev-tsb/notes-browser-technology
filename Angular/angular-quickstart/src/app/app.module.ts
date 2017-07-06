@@ -1,27 +1,29 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule }   from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { BrowserModule }        from '@angular/platform-browser';
+import { NgModule }             from '@angular/core';
+import { FormsModule }          from '@angular/forms';
+import { RouterModule }         from '@angular/router';
 
-import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
-import { HeroesComponent } from './component/heroes/heroes.component';
+import { AppRoutesModule }      from './app.routes.module';
 
-import { HeroService } from './service/hero.service';
+import { HeroService }          from './service/hero.service';
 
-import { ROUTER_DEFINITIONS } from './app.routes';
+import { AppComponent }         from './app.component';
+import { HeroDetailComponent }  from './component/hero-detail/hero-detail.component';
+import { HeroesComponent }      from './component/heroes/heroes.component';
+import { DashboardComponent }   from './component/dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(ROUTER_DEFINITIONS)
+    AppRoutesModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]

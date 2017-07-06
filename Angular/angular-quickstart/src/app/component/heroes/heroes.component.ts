@@ -1,4 +1,5 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Hero } from '../../model/hero';
 import { HeroService } from '../../service/hero.service';
@@ -13,9 +14,11 @@ export class HeroesComponent implements OnInit {
   heroes: Hero[];
 
   @Output()
-  selectedHero = new EventEmitter<Hero>();
+  selectedHero: Hero;
 
-  constructor(private heroService: HeroService) { }
+  constructor(
+    private router: Router,
+    private heroService: HeroService) { }
 
   ngOnInit(): void {
     this.getHeroes();
@@ -23,11 +26,15 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void {
     console.log("selected: " + hero);
-  	this.selectedHero.emit(hero);
+  	this.selectedHero = hero;
   }
 
   getHeroes(): void {
     this.heroService.getHeroes().then(heroes => this.heroes = heroes);
+  }
+
+  goToDetail(): void {
+    this.router.navigate(['/detail', this.selectedHero.id]);
   }
 
 }
