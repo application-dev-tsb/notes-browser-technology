@@ -27,5 +27,26 @@ export class HighlightDirective {
 <p myHighlight>Highlight me!</p>
 ```
 
+## Service
+```sh
+ng g service service/hero
+```
+```typescript
+//1. create a service
+@Injectable() export class HeroService {}
+
+//2. update app module
+import { HeroService } from './service/hero.service';
+providers: [HeroService]
+
+//3. use dependency injection on the class requiring the service
+constructor(private heroService: HeroService) { }
+```
+
+## Lifecycle Hooks
+A component has a lifecycle managed by Angular.
+
+
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
+- [Angular Documentation: Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
