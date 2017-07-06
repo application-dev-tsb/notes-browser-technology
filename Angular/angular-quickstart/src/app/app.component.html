@@ -1,11 +1,6 @@
 <h1>{{title}}</h1>
 
-<div *ngIf="selectedHero">
-  <label>name: </label>
-  <input [(ngModel)]="selectedHero.name" placeholder="name">
-</div>
-
-<h2>{{selectedHero.name}} details!</h2>
+<hero-detail [hero]="selectedHero"></hero-detail>
 
 <h2>My Heroes</h2>
 <ul class="heroes">
