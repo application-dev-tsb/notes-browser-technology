@@ -16,4 +16,4 @@ const ROUTER_DEFINITIONS = [
   imports: [ RouterModule.forRoot(ROUTER_DEFINITIONS) ],
   exports: [ RouterModule ]
 })
-export class AppRoutesModule {}
+export class RoutingModule {}

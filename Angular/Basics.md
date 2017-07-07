@@ -49,6 +49,10 @@ A component has a lifecycle managed by Angular.
 ## Routing and Navigation
 [Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
 
+## Promises and Observables
+- Promise<T>: easy to use when you only need to fetch the data 
+- Observable<T>: easy to to a request-cancel-new-request
+
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
 - [Angular Documentation: Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
