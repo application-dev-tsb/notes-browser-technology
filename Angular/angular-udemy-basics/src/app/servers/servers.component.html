@@ -1,3 +1,18 @@
+<input 
+  [(ngModel)]="serverName"
+  (input)="onUpdateServerEvent($event)"
+  type="text" 
+  name=""
+  class="form-control">
+<p [innerHtml]="serverName"></p>
+
+<button 
+  class="btn btn-warning"
+  [disabled]="!serverName"
+  (click)="onReset()">
+	Reset
+</button>
+
 <button 
   class="btn btn-primary" 
   type="button" 
