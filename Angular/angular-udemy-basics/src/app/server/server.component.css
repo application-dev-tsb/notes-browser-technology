@@ -1,3 +1,12 @@
-h6 {
-	color: red;
+p {
+	color: white;
+	padding: 1em;
+}
+
+p.offline {
+	background-color: red;
+}
+
+p.online {
+	background-color: green;
 }
