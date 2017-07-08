@@ -10,6 +10,9 @@ directives with a template.
 
 #### Structural directives
 change the DOM layout by adding and removing DOM elements.
+```html
+<p *ngIf="booleanValue">Will only Show if property bounded is true</p>
+```
 
 #### Attribute directives
 change the appearance or behavior of an element, component, or another directive.
