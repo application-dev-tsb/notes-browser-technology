@@ -1,9 +1,9 @@
 <a href="#" class="list-group-item clearfix" *ngIf="recipe">	
 	<div class="pull-left">
-		<h4 class="list-group-item-heading">{{recipe.name}}</h4>
-		<p class="list-group-item-text">{{recipe.description}}</p>
-		<span class="pull-right">
-			<img src="{{recipe.imagePath}}" class="img-responsive" style="max-height: 50px;">
-		</span>
+		<h4 class="list-group-item-heading" [innerHtml]="recipe.name"></h4>
+		<p class="list-group-item-text" [innerHtml]="recipe.description"></p>	
 	</div>
+	<span class="pull-right">
+	  	<img [src]="recipe.imagePath" class="img-responsive max-size-food">
+	</span>
 </a>
