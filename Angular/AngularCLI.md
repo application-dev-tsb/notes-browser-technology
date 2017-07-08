@@ -16,10 +16,11 @@ npm start
 ng serve
 ```
 
-## Generate Components, Directives, Pipes and Services
+## Generate Angular Elements
 ```sh
 ng generate component hero-detail
 ng g component hero-detail
+ng g c hero-detail
 ```
 | Generate Command  | Purpose 	|
 | ----------------- + ----------|
