@@ -56,6 +56,15 @@ A component has a lifecycle managed by Angular.
 - Promise<T>: easy to use when you only need to fetch the data 
 - Observable<T>: easy to to a request-cancel-new-request
 
+## View Encapsulation (Shadow DOM)
+- alters the technique applied for encapsulation
+- options are NONE, NATIVE, and EMULATED (default)
+```typescript
+@Component({
+  encapsulation: ViewEncapsulation.Native
+})
+```
+
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
 - [Angular Documentation: Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
