@@ -9,6 +9,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import { BasicHighlightDirective } from './directive/basic-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
     WarningAlertComponent,
     SuccessAlertComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    BasicHighlightDirective
   ],
   imports: [
     BrowserModule,
