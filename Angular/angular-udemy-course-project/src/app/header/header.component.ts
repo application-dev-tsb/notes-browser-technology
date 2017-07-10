@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public feature: string = 'recipe';
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  onNavigate(feature: string) {
+    this.feature = feature;
   }
 
 }
