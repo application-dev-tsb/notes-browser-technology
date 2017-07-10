@@ -65,6 +65,24 @@ A component has a lifecycle managed by Angular.
 })
 ```
 
+## Component Reference
+- local reference
+```html
+<input type="text" class="form-control" #serverContentInput>
+<button
+      class="btn btn-primary"
+      (click)="onAddBlueprint(serverNameInput)">Add Server Blueprint</button>
+```
+```typescript
+onAddBlueprint(serverNameInput: HTMLInputElement) { }
+```
+- ViewChild
+```
+@ViewChild('serverContentInput') serverContentInput: ElementRef; //add this to the component
+
+this.serverContentInput.nativeElement.value; //access the natif element
+```
+
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
 - [Angular Documentation: Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
