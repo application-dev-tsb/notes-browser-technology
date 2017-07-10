@@ -11,5 +11,6 @@ export class ServerElementComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
+
 }

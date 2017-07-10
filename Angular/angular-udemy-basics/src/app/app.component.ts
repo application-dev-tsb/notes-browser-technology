@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  serverElements = [];
-  newServerName = '';
-  newServerContent = '';
+  serverElements:  {type: string, name: string, content: string}[] = [];
+
+  public defaultServerName: string = 'default';
 
   onServerAdded(server: {name: string, content: string}) {
     this.serverElements.push({
@@ -24,5 +24,14 @@ export class AppComponent {
       name: server.name,
       content: server.content
     });
+  }
+
+  getDefaultServerName(): string {
+    return "test";
+  }
+
+  onForceChange(): void{
+    console.log('emit changes');
+    this.defaultServerName = 'changed default';
   }
 }

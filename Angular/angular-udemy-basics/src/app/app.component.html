@@ -1,5 +1,6 @@
 <div class="container">
   <app-cockpit
+    [defaultServerName]=(defaultServerName)
   	(serverCreated)="onServerAdded($event)"
   	(blueprintCreated)="onBlueprintAdded($event)">
   </app-cockpit>
@@ -13,4 +14,5 @@
       </app-server-element>
     </div>
   </div>
+  <button type="button" (click)="onForceChange()">Force Change</button>
 </div>
