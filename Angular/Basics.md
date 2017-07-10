@@ -49,16 +49,16 @@ constructor(private heroService: HeroService) { }
 ## Lifecycle Hooks
 A component has a lifecycle managed by Angular.
 
-| Lifecycle    				| Description |
-| ------------------------- + ---------------------- |
-| ngOnChanges 				| invoked when an Input element changed its value | 
-| ngOnInit 					| invoked after the first ngOnChanges |
-| ngDoCheck 				| invoked when angular tries to check a change |
-| ngAfterViewInit 			| view is now available
-| ngAfterViewChecked 		| 
-| ngAfterContentInit 		| ng-content is now available
-| ngAfterContentChecked 	|
-| ngOnDestroy 				| cleanup here
+| Lifecycle    				| Description										 |
+| ------------------------- | -------------------------------------------------- |
+| ngOnChanges 				| invoked when an Input element changed its value 	 | 
+| ngOnInit 					| invoked after the first ngOnChanges 				 |
+| ngDoCheck 				| invoked when angular tries to check a change 		 |
+| ngAfterViewInit 			| view is now available								 |
+| ngAfterViewChecked 		| 													 |
+| ngAfterContentInit 		| ng-content is now available						 |
+| ngAfterContentChecked 	|													 |
+| ngOnDestroy 				| cleanup here										 |
 
 
 ## Routing and Navigation
