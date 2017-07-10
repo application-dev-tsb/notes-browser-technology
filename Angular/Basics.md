@@ -48,6 +48,7 @@ constructor(private heroService: HeroService) { }
 
 ## Lifecycle Hooks
 A component has a lifecycle managed by Angular.
+
 | Lifecycle    				| Description |
 | ------------------------- + ---------------------- |
 | ngOnChanges 				| invoked when an Input element changed its value | 
