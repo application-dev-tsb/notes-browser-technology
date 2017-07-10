@@ -11,6 +11,7 @@ import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
 import { BasicHighlightDirective } from './directive/basic-highlight.directive';
 import { AdvancedHighlightDirective } from './directive/advanced-highlight.directive';
+import { HostbindingHighlightDirective } from './directive/hostbinding-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AdvancedHighlightDirective } from './directive/advanced-highlight.direc
     CockpitComponent,
     ServerElementComponent,
     BasicHighlightDirective,
-    AdvancedHighlightDirective
+    AdvancedHighlightDirective,
+    HostbindingHighlightDirective
   ],
   imports: [
     BrowserModule,
