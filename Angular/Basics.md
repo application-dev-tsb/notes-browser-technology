@@ -80,7 +80,25 @@ onAddBlueprint(serverNameInput: HTMLInputElement) { }
 ```
 @ViewChild('serverContentInput') serverContentInput: ElementRef; //add this to the component
 
-this.serverContentInput.nativeElement.value; //access the natif element
+this.serverContentInput.nativeElement.value; //access the native element
+```
+
+## ng-content
+- hook for parent component to add contents
+```html
+<!-- Component 1 -->
+<div>
+Component 1
+<ng-content></ng-content>
+<div>
+
+<!-- Component 2 -->
+<div>
+Component 2
+<component1>
+	Other Content
+</component1>
+<div>
 ```
 
 ##### Resources:
