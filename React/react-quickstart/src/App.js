@@ -14,12 +14,17 @@ class App extends Component {
       lastName: 'Bibera'
     };
 
+    const internal1 = <InternalComponent name="Internal Component 1" />;
+    const internal2 = <InternalComponent name="Internal Component 2" />;
+
+
     //const sampleJSX = (<div>Hi Im a JSX Statement</div>);
     //{ sampleJSX }
     return (
       <div className="App">
         <InternalComponent name="Test" />
-
+        {internal1}
+        {internal2}
         <span>Hello {this.formatName(user)}</span>
         <h2>It is {new Date().toLocaleTimeString()}.</h2>
       </div>
