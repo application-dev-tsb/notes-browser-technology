@@ -9,6 +9,10 @@ class App extends Component {
     return user.firstName + ' ' + user.lastName;
   }
 
+  onButtonClick(event) {
+    console.log('got event:', event);
+  }
+
   render() {
     const user = {
       firstName: 'Lyndon',
@@ -28,6 +32,7 @@ class App extends Component {
         {internal2}
         <span>Hello {this.formatName(user)}</span>
         <Clock />
+        <button onClick={this.onButtonClick}>Test Event</button>
       </div>
     );
   }
