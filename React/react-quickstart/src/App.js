@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock';
 
 class App extends Component {
 
@@ -26,7 +27,7 @@ class App extends Component {
         {internal1}
         {internal2}
         <span>Hello {this.formatName(user)}</span>
-        <h2>It is {new Date().toLocaleTimeString()}.</h2>
+        <Clock />
       </div>
     );
   }

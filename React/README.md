@@ -23,5 +23,17 @@ class SomeComponent extends Component {
 <!-- renders <div>Test</div> -->
 ```
 
+## State
+- mutable
+```javascript
+//to set
+this.setState({
+	date: new Date()
+});
+
+//to access from JSX
+{this.state.date.toLocaleTimeString()}
+```
+
 #### Resources
 - [React Tutorial](https://facebook.github.io/react/tutorial/tutorial.html)
