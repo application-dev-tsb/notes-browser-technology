@@ -31,6 +31,11 @@ this.setState({
 	date: new Date()
 });
 
+//if you need the old value before updating
+this.setState((prevState, props) => ({
+  counter: prevState.counter + props.increment
+}));
+
 //to access from JSX
 {this.state.date.toLocaleTimeString()}
 ```
