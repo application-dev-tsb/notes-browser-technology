@@ -1,51 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
+import Todo from './model';
+import TodoItem from './TodoItem';
 
 class App extends Component {
 
-  formatName(user) {
-    return user.firstName + ' ' + user.lastName;
-  }
-
-  onButtonClick(event) {
-    console.log('got event:', event);
-  }
+  todoList = [new Todo('Test', new Date()), new Todo('Test2', new Date())];
 
   render() {
-    const user = {
-      firstName: 'Lyndon',
-      lastName: 'Bibera'
-    };
-
-    const internal1 = <InternalComponent name="Internal Component 1" />;
-    const internal2 = <InternalComponent name="Internal Component 2" />;
-
-
-    //const sampleJSX = (<div>Hi Im a JSX Statement</div>);
-    //{ sampleJSX }
     return (
       <div className="App">
-        <InternalComponent name="Test" />
-        {internal1}
-        {internal2}
-        <span>Hello {this.formatName(user)}</span>
         <Clock />
-        <button onClick={this.onButtonClick}>Test Event</button>
+        <h1>My Todo Items:</h1>
+        {this.todoList.map((todo, i) => <TodoItem key={i} todo={todo} />)}
       </div>
     );
   }
-}
 
-class InternalComponent extends Component {
-  
-  render() {
-    return (
-      <div>
-        Internal Component with name = {this.props.name}
-      </div>
-    );
+  renderTodoItem(index, todo) {
+    return <TodoItem todo="{todo}" />
   }
 }
 
