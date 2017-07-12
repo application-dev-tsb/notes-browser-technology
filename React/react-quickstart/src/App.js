@@ -9,11 +9,15 @@ class App extends Component {
   todoList = [new Todo('Test', new Date()), new Todo('Test2', new Date())];
 
   render() {
+    const todoItems = this.todoList.map((todo, i) =>
+      <TodoItem key={i} todo={todo} />
+    );
+    
     return (
       <div className="App">
         <Clock />
         <h1>My Todo Items:</h1>
-        {this.todoList.map((todo, i) => <TodoItem key={i} todo={todo} />)}
+        {todoItems}
       </div>
     );
   }
