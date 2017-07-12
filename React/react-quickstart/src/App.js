@@ -12,7 +12,7 @@ class App extends Component {
     const todoItems = this.todoList.map((todo, i) =>
       <TodoItem key={i} todo={todo} />
     );
-    
+
     return (
       <div className="App">
         <Clock />
@@ -22,9 +22,6 @@ class App extends Component {
     );
   }
 
-  renderTodoItem(index, todo) {
-    return <TodoItem todo="{todo}" />
-  }
 }
 
 export default App;
