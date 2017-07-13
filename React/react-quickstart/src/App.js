@@ -3,6 +3,7 @@ import './App.css';
 import Clock from './Clock';
 import Todo from './model';
 import TodoItem from './TodoItem';
+import TodoEdit from './TodoEdit';
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
         <Clock />
         <h1>My Todo Items:</h1>
         {todoItems}
+        <TodoEdit />
       </div>
     );
   }
