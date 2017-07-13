@@ -17,8 +17,10 @@ class App extends Component {
     return (
       <div className="App">
         <Clock />
+        <hr/>
         <h1>My Todo Items:</h1>
         {todoItems}
+        <hr/>
         <TodoEdit />
       </div>
     );
