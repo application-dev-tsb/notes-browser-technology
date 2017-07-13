@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Clock from './Clock';
-import Todo from './model';
-import TodoItem from './TodoItem';
-import TodoEdit from './TodoEdit';
+import Clock from './components/Clock';
+import Todo from './models/Todo';
+import TodoItem from './components/TodoItem';
+import TodoEdit from './components/TodoEdit';
 
-class App extends Component {
+export default class App extends Component {
 
   todoList = [new Todo('Test', new Date()), new Todo('Test2', new Date())];
 
@@ -27,5 +27,3 @@ class App extends Component {
   }
 
 }
-
-export default App;
