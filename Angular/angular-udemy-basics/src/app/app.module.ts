@@ -12,6 +12,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
 import { BasicHighlightDirective } from './directive/basic-highlight.directive';
 import { AdvancedHighlightDirective } from './directive/advanced-highlight.directive';
 import { HostbindingHighlightDirective } from './directive/hostbinding-highlight.directive';
+import { DestroyerDirective } from './directive/destroyer.directive';
+import { DemoDestroyerComponent } from './demo-destroyer/demo-destroyer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { HostbindingHighlightDirective } from './directive/hostbinding-highlight
     ServerElementComponent,
     BasicHighlightDirective,
     AdvancedHighlightDirective,
-    HostbindingHighlightDirective
+    HostbindingHighlightDirective,
+    DestroyerDirective,
+    DemoDestroyerComponent
   ],
   imports: [
     BrowserModule,
