@@ -16,6 +16,7 @@ export class HostbindingHighlightDirective {
 
 ###### Usage
 ```html
-<p appHostbindingHighlight="test" [myOtherProperty]="red" >Test</p>
+<p appHostbindingHighlight="test" [myOtherProperty]="'red'" >Test</p>
+<p [appHostbindingHighlight]="'test'" myOtherProperty="red" >Test</p>
 ```
 
