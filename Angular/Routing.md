@@ -26,6 +26,7 @@ export class AppModule { }
 ```
 
 ## Links
+Adding links and styling
 ```html
 <a routerLink="/mypath">click me</a>
 ```
