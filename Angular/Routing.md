@@ -30,13 +30,20 @@ export class AppModule { }
 <a routerLink="/mypath">click me</a>
 ```
 
+## Programmatic Routing
+Load page programatically
+
 ## Route Parameters
+Set and retrieve route parameters
 
 ## Nested Routes
+Routing with sub components
 
 ## Route Guards
+Protect routes
 
 ## Async Routes
+Lazy loading of components
 
 ###### Resources:
 [Angular Guide](https://angular.io/guide/router)
