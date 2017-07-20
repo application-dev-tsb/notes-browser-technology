@@ -1,12 +1,12 @@
 # Routing
 
-###### Routing Basics
+## Routing Basics
 ```typescript
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: 'crisis-center', component: CrisisListComponent },
-  { path: 'hero/:id',      component: HeroDetailComponent },
+  { path: 'hero/:id',      component: HeroDetailComponent }
 ];
 
 @NgModule({
@@ -21,12 +21,22 @@ const appRoutes: Routes = [
 })
 export class AppModule { }
 ```
+```html
+<router-outlet></router-outlet>
+```
 
-###### Links
+## Links
 ```html
 <a routerLink="/mypath">click me</a>
 ```
 
-###### Routing and Reloading
+## Route Parameters
 
-###### Route Parameters
+## Nested Routes
+
+## Route Guards
+
+## Async Routes
+
+###### Resources:
+[Angular Guide](https://angular.io/guide/router)
