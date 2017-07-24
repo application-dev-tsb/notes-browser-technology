@@ -19,3 +19,17 @@ import { NgForm } from '@angular/forms';
 
 onSubmit(form: NgForm) { ... }
 ```
+- @ViewChild
+```typescript
+class X {
+  @ViewChild('f') form: NgForm;
+}
+```
+
+## Important Form Properties
+| Property | Description 					|
+| -------- | ------------------------------ |
+| dirty    | value changed					|
+| touched  | an input element was accessed	|
+| valid    | passed all validators 			|
+| controls | list of inputs					|
