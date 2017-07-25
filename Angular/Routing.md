@@ -72,6 +72,27 @@ ngOnInit() {
 
 ```
 
+## Query Params and Fragment
+```html
+<!-- http://localhost/a/b/c?d=dVal#e -->
+<a
+    [routerLink]="['a', 'b', 'c']"
+    [queryParams]="{d:'dVal'}"
+    fragment="e"
+>  
+  My Link
+</a>
+```
+```typescript
+//programmatic navigation
+this.router.navigate(['a', 'b', 'c'], {queryParams: {d:'dVal'}, fragment: 'e'});
+```
+```typescript
+//data retrieval
+val d = this.route.snapshot.queryParams['d'];
+val fragment = this.snapshot.fragment();
+```
+
 ## Nested Routes
 Routing with sub components
 
