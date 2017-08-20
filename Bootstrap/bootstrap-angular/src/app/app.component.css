@@ -27,10 +27,3 @@ img {
 .section-content {
   padding: 5rem 0;
 }
-
-/* bug with bootstrap */
-.workaround-btn-secondary-outline {
-  color: #ccc;
-  background: transparent none;
-  border-color: #ccc;
-}
