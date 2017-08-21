@@ -6,6 +6,7 @@ import { BasicComponent } from './basic/basic.component';
 import { NavigationComponent } from './basic/navigation/navigation.component';
 import { CoverComponent } from './basic/cover/cover.component';
 import { CarouselComponent } from './basic/carousel/carousel.component';
+import { WhatwedoComponent } from './basic/whatwedo/whatwedo.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CarouselComponent } from './basic/carousel/carousel.component';
     BasicComponent,
     NavigationComponent,
     CoverComponent,
-    CarouselComponent
+    CarouselComponent,
+    WhatwedoComponent
   ],
   imports: [
     BrowserModule
