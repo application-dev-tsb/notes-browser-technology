@@ -119,6 +119,12 @@ Component 2
 <div>
 ```
 
+## Angular Forms
+- Template-driven Approach
+- Reactive Approach
+- Validation
+- Submitting Form
+
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
 - [Angular Documentation: Lifecycle Hooks](https://angular.io/guide/lifecycle-hooks)
