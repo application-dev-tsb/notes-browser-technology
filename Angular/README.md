@@ -46,6 +46,25 @@ providers: [HeroService]
 constructor(private heroService: HeroService) { }
 ```
 
+## Pipes
+- Pipe Parameters
+- Pure and Impure Pipes
+- "async" Pipe
+
+## Routing and Navigation
+- [Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
+- Router Links
+- Programmatic Navigation
+- Route Parameters
+- Protecting Routes (Guards)
+- Path Matching Deep Dive
+
+## HTTP Requests
+- Sending Requests
+- Transforming and Using Response
+- Catching HTTP Error
+- Using "async" pipe
+
 ## Lifecycle Hooks
 A component has a lifecycle managed by Angular.
 
@@ -58,17 +77,7 @@ A component has a lifecycle managed by Angular.
 | ngAfterViewChecked 		| 													 |
 | ngAfterContentInit 		| ng-content is now available						 |
 | ngAfterContentChecked 	|													 |
-| ngOnDestroy 				| cleanup here										 |
-
-
-## Routing and Navigation
-- [Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
-- Router Links
-- Programmatic Navigation
-- Route Parameters
-- Protecting Routes (Guards)
-- Path Matching Deep Dive
-
+| ngOnDestroy 				| cleanup here		
 
 ## Promises and Observables
 - Promise<T>: easy to use when you only need to fetch the data 
