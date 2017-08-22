@@ -65,6 +65,13 @@ constructor(private heroService: HeroService) { }
 - Catching HTTP Error
 - Using "async" pipe
 
+## Animations
+- Triggers and State
+- Transitions
+- Keyframes
+- Grouping Animations
+- Animation Callbacks
+
 ## Lifecycle Hooks
 A component has a lifecycle managed by Angular.
 
