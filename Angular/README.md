@@ -1,4 +1,4 @@
-# Angular: Basic Concepts
+# Angular: A TypeScript Framework for Single-page Applications
 
 ## Unit Testing
 - Testing Setup
