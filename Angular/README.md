@@ -1,5 +1,10 @@
 # Angular: Basic Concepts
 
+## Unit Testing
+- Testing Setup
+- Testing Dependencies
+- Simulating Async Tasks
+
 ## Directives
 An Attribute directive changes the appearance or behavior of a DOM element.
 
