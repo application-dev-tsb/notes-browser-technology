@@ -62,7 +62,13 @@ A component has a lifecycle managed by Angular.
 
 
 ## Routing and Navigation
-[Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
+- [Routing and Navigation Tutorial](https://angular.io/tutorial/toh-pt5)
+- Router Links
+- Programmatic Navigation
+- Route Parameters
+- Protecting Routes (Guards)
+- Path Matching Deep Dive
+
 
 ## Promises and Observables
 - Promise<T>: easy to use when you only need to fetch the data 
