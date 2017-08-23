@@ -55,6 +55,9 @@ Helpful classes for common use cases
 - Responsive helpers: automatically scale embedded elements' size, float elements base on media breakout
 - Screenreaders: only show elements on screenreaders
 - Sizing: size up the elements relative to its parent
+- [Spacing](https://v4-alpha.getbootstrap.com/utilities/spacing/)
+- [Typography](https://v4-alpha.getbootstrap.com/utilities/typography/)
+- [Vertical Align](https://v4-alpha.getbootstrap.com/utilities/vertical-align/)
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
