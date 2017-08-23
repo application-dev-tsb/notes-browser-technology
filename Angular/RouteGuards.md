@@ -24,3 +24,11 @@ const appRoutes: Routes = [
   }
 ];
 ```
+
+###### Dont forget to Inject AuthGuard
+```typescript
+//app module
+...
+providers: [AuthGuard]
+...
+```
