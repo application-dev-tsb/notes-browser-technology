@@ -52,6 +52,7 @@ Helpful classes for common use cases
 - Image replacement: hides the text and uses an image in its place
 - Invisible content: hides the element without removing it from layout
 - Position: locks the position of the element to the top/bottom of the viewport
+- Responsive helpers: automatically scale embedded elements' size, float elements base on media breakout
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
