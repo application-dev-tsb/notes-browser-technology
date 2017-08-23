@@ -1,9 +1,9 @@
 # Angular: A TypeScript Framework for Single-page Applications
 
 ## Unit Testing
-- Testing Setup
-- Testing Dependencies
-- Simulating Async Tasks
+- Jasmine: Unit testing framework for writing unit tests
+- Karma: browser-based test runner
+- Protractor: end-to-end testing
 
 ## Directives
 An Attribute directive changes the appearance or behavior of a DOM element.
