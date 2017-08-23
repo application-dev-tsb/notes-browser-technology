@@ -1,6 +1,7 @@
 # Route Guards
-```typescript
 
+###### Guard Implementation
+```typescript
 import {CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
 import {Observable} from 'rxjs/Observable';
 
@@ -9,4 +10,17 @@ export class AuthGuard implements CanActivate {
   
   }
 }
+```
+
+###### Wire Guard to Routes
+```typescript
+//module for app routes
+
+const appRoutes: Routes = [
+  {
+    path: '', 
+    component: XComponent,
+    canActivate: AuthGuard
+  }
+];
 ```
