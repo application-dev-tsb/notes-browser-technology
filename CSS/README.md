@@ -1,16 +1,11 @@
 # Basics: Cascading Style Sheets
 
-#### CSS Code
-- inline
-- style block inside html document
-- external file
-
-#### Import
+## Basics
+### Import
 ```
 @import "other.css";
 ```
-
-#### Selector
+### Selector
 ```css
 //select all
 * {
@@ -32,14 +27,13 @@ div, span, a {
 
 }
 ```
+### Unit Types
+- Pixels
+- Points: 72 points = 1 inch
+- Ems: current font size
+- Percent: current font size is equal to 100%
 
 ## Box Model
 - Margin: space outside the element
 - Border
 - Padding: space inside the element
-
-#### Unit Types
-- Pixels
-- Points: 72 points = 1 inch
-- Ems: current font size
-- Percent: current font size is equal to 100%
