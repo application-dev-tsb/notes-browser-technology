@@ -1,5 +1,5 @@
 # Bootstrap: HTML/CSS Library for Responsive Applications
-Bootstrap encourages the use of regular HTML with emphasis on accessibility and mobile-readiness
+Transforms ordinary elements into usable components. Bootstrap encourages the use of regular HTML with emphasis on accessibility and mobile-readiness
 
 ## Layout
 ### Containers
