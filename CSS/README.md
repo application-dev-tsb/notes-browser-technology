@@ -33,6 +33,11 @@ div, span, a {
 }
 ```
 
+## Box Model
+- Margin: space outside the element
+- Border
+- Padding: space inside the element
+
 #### Unit Types
 - Pixels
 - Points: 72 points = 1 inch
