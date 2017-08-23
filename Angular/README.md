@@ -61,7 +61,7 @@ constructor(private heroService: HeroService) { }
 - Router Links
 - Programmatic Navigation
 - Route Parameters
-- Protecting Routes (Guards)
+- [Route Guards](RouteGuards.md): Restrict page access
 - Path Matching Deep Dive
 
 ## HTTP Requests
