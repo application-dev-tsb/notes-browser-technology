@@ -9,7 +9,7 @@
 ```css
 //select all
 * {
-  font-family: "Arial Black', sans-serif;
+  font-family: "Arial Black', sans-serif"
 }
 
 //select by id
