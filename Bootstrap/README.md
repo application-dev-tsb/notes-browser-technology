@@ -1,16 +1,38 @@
-# Basics: Bootstrap
-- HTML5
-- Mobile first
-- Responsive CSS for Mobile and Desktop
+# Bootstrap: HTML/CSS Library for Responsive Application
 
-#### 12-Column Grid System
-- elements consume **x** out of **12** columns for each **row** based off the screen size
+## Containers
+Basic element for using the bootstrap default 12-column-grid system
 ```html
-<div class="row">
-  <div class="col-lg-8 col-md-6 col-sm-1">
-  </div>
+<div class="container">
+  <!-- Content here -->
 </div>
 ```
+- container: fixed-width
+- container-fluid: full width
+
+## Components
+- Alerts
+- Badge
+- Breadcrumb
+- Buttons
+- Button Group
+- Card
+- Carousel
+- Collapse
+- Dropdown
+- Forms
+- Input Group
+- Jumbotron
+- List Group
+- Modal
+- Navs
+- Navbar
+- Pagination
+- Popovers
+- Progress
+- Scrollspy
+- Tooltips
+
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
