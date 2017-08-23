@@ -38,7 +38,7 @@ Built-in components that you can use in your applications
 - Pagination
 - Popovers
 - Progress
-- Scrollspy
+- [Scrollspy](https://v4-alpha.getbootstrap.com/components/scrollspy/#mdo): listen to scroll positions and update nav targets
 - Tooltips
 
 ## Utilities
