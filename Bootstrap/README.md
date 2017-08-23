@@ -48,6 +48,8 @@ Helpful classes for common use cases
 - Close Icon: create a button "x" 
 - Colors: predefined colors to convey meaning
 - Flexbox: use the new CSS flex for alignment of elements
+- Display Property: inline or block
+- Image replacement: hides the text and uses an image in its place
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
