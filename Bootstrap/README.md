@@ -53,6 +53,8 @@ Helpful classes for common use cases
 - Invisible content: hides the element without removing it from layout
 - Position: locks the position of the element to the top/bottom of the viewport
 - Responsive helpers: automatically scale embedded elements' size, float elements base on media breakout
+- Screenreaders: only show elements on screenreaders
+- Sizing: size up the elements relative to its parent
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
