@@ -51,6 +51,7 @@ Helpful classes for common use cases
 - Display Property: inline or block
 - Image replacement: hides the text and uses an image in its place
 - Invisible content: hides the element without removing it from layout
+- Position: locks the position of the element to the top/bottom of the viewport
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
