@@ -45,6 +45,9 @@ Built-in components that you can use in your applications
 Helpful classes for common use cases
 - Borders: Border radius and simple removal of borders
 - Clearfix: a workaround for divs not wrapping around its children
+- Close Icon: create a button "x" 
+- Colors: predefined colors to convey meaning
+- Flexbox: use the new CSS flex for alignment of elements
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
