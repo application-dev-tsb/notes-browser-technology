@@ -18,6 +18,7 @@ Basic element for using the bootstrap default 12-column-grid system
 <insert notes on media queries like sm, lg, m...etc..>
 
 ## Components
+Built-in components that you can use in your applications
 - Alerts
 - Badge
 - Breadcrumb
@@ -40,6 +41,10 @@ Basic element for using the bootstrap default 12-column-grid system
 - Scrollspy
 - Tooltips
 
+## Utilities
+Helpful classes for common use cases
+- Borders: Border radius and simple removal of borders
+- Clearfix: a workaround for divs not wrapping around its children
 
 ##### Resources:
 - [YouTube: Bootstrap Tutorial By Derek Banas](https://www.youtube.com/watch?v=gqOEoUR5RHg)
