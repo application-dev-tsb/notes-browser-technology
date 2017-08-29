@@ -1,5 +1,18 @@
 # Forms
 
+## Pre-requistes
+- import the forms module
+```
+//app.module.ts
+import { FormsModule }   from '@angular/forms';
+
+@NgModule({
+  imports: [
+    FormsModule
+  ],
+ })
+```
+
 ## Accessing the Form Object
 - ElementRef
 ```html
