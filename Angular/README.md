@@ -141,10 +141,13 @@ Component 2
 ```
 
 ## Angular Forms
+A framework to support two-way data binding, change tracking, validation, and error handling
+
 - Template-driven Approach
 - Reactive Approach
 - Validation
 - Submitting Form
+- Handling Errors
 
 ##### Resources:
 - [Angular Documentation: Directives](https://angular.io/guide/attribute-directives)
