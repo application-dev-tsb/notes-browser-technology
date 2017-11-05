@@ -1,36 +1,8 @@
 # Browser Technologies
+Technologies used in browser; HTML, CSS, and JavaScript, as well as some related frameworks that would make my work a hell of a lot easier than dealing with native constructs.
 
-#### HTML5 and CSS3
-- HTML: Basics
-- HTML: Search Engine Metadata
-- HTML: List of all Tags
-- HTML: List of all Character Entities
-- HTML: Image and Image Map
-- HTML: Object and Embed Tags
-- HTML: Structuring Contents (Header, Main, Section Article, Aside, Navigation, Footer)
-- HTML: Lists
-- HTML: Table
-- HTML: Form
-- HTML: Canvas
-- HTML: Local Storage
-- CSS: Basics
-- [CSS: Selectors](CSS/Selectors.md)
-- CSS: Box (Margin, Border, Padding)
-- CSS: Colors
-- CSS: Positioning
-- CSS: Display Block or Inline
-- [CSS: Display Flex](CSS/DisplayFlex.md)
-- CSS: Table Properties
-- CSS: Image Clipping
-- CSS: List Style
-- CSS: Inserting Contents and Autoincrement Counter
-- CSS: Text Decoration
-- CSS: Shadow
-- CSS: Border Radius
-- CSS: Color Gradient
-- CSS: Transform (Scale, Rotate, Skew, Translate)
-- CSS: Transition and Animation (Keyframe)
-- CSS: Columns
+- [HTML](HTML)
+- [CSS](CSS)
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
