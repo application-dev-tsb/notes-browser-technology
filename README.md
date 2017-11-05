@@ -1,8 +1,9 @@
 # Browser Technologies
 Technologies used in browser; HTML, CSS, and JavaScript, as well as some related frameworks that would make my work a hell of a lot easier than dealing with native constructs.
 
-- [HTML](HTML)
-- [CSS](CSS)
+- [HTML](HTML): content of the document
+- [CSS](CSS): look and feel
+- JavaScript: brain
 
 #### JavaScript Libraries
 - Bower: Installation and Setup
