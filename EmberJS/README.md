@@ -3,6 +3,7 @@
 EmberJS is yet another frontend JS application framework. Basic things such as routers, templates, and components are all present in the framework.
 
 ## Router
+Evaluates the URL and decides on which components to render on screen.
 
 ## Template
 This is how the HTML side of things are rendered. Special application syntax are written using handlebars.
