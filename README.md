@@ -13,10 +13,11 @@ Technologies used in browser; HTML, CSS, and JavaScript, as well as some related
 - [SASS](SASS)
 
 ## JavaScript
-- [Angular](Angular)
-- [React](React)
-- [EmberJS](EmberJS)
+- [Angular](Angular): component-based SPA framework
+- [React](React): functional-programming oriented framework
+- [EmberJS](EmberJS): router/template-based framework
 
 ## Helper Tools
-- Bower: Installation and Setup
+- Bower: dependency manager
+- NPM: package manager
 
