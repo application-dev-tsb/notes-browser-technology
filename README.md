@@ -9,8 +9,9 @@ Technologies used in browser; HTML, CSS, and JavaScript, as well as some related
 - Polymer: HTML5 on steroids
 
 ## CSS
-- [Bootstrap](Bootstrap)
-- [SASS](SASS)
+- [Bootstrap](Bootstrap): responsive CSS styles
+- [SASS](SASS): pre-processed, CSS plus advance features; variables, nexting, mixin, operators
+- LESS: just like LESS, with a different syntax 
 
 ## JavaScript
 - [Angular](Angular): component-based SPA framework
