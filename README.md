@@ -6,7 +6,7 @@ Technologies used in browser; HTML, CSS, and JavaScript, as well as some related
 - JavaScript: brain
 
 ## HTML
-- Polymer: HTML5 on steroids
+- Polymer: HTML on steroids; makes heavy use of web components
 
 ## CSS
 - [Bootstrap](Bootstrap): responsive CSS styles
