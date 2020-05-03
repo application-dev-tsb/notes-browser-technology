@@ -1,0 +1,76 @@
+<mat-horizontal-stepper>
+
+  <mat-step label="Shipping Address">
+    <p>Shipping Address Details</p>
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput type="text">
+      <mat-hint align="end">Must not be empty</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Topic</mat-label>
+      <mat-select [(value)]="selectedValue">
+        <mat-option>None</mat-option>
+        <mat-optgroup label="Web">
+          <mat-option value="angular">Angular</mat-option>
+          <mat-option value="react">React</mat-option>
+          <mat-option value="vue">Vue</mat-option>
+        </mat-optgroup>
+        <mat-optgroup label="Backend">
+          <mat-option value="java">Java</mat-option>
+          <mat-option value="node">Node.JS</mat-option>
+          <mat-option value=".net">.NET</mat-option>
+        </mat-optgroup>
+      </mat-select>
+      <mat-hint align="end">Please pick one...</mat-hint>
+    </mat-form-field>
+    <h3>{{selectedValue}}</h3>
+  </mat-step>
+
+  <mat-step label="Billing Address">
+    <p>Billing Address Details</p>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <input matInput
+               placeholder="State"
+               aria-label="State"
+               [matAutocomplete]="auto"
+               [formControl]="stateCtrl">
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
+            <img class="example-option-img" aria-hidden [src]="state.flag" height="25">
+            <span>{{state.name}}</span> |
+            <small>Population: {{state.population}}</small>
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <br>
+
+      <mat-slide-toggle
+        [checked]="stateCtrl.disabled"
+        (change)="stateCtrl.disabled ? stateCtrl.enable() : stateCtrl.disable()">
+        Disable Input?
+      </mat-slide-toggle>
+    </form>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+
+  <mat-step label="Place Order">
+    <p>Order Details</p>
+    <mat-form-field>
+      <input matInput [matDatepicker]="myDatePicker" [max]="maxDate" [min]="minDate" [matDatepickerFilter]="notWeekend">
+      <mat-datepicker-toggle [for]="myDatePicker" matSuffix
+                             matTooltip="This is really awesome"
+                             matTooltipShowDelay="2000"
+                             matTooltipHideDelay="2000">
+      </mat-datepicker-toggle>
+      <mat-datepicker #myDatePicker></mat-datepicker>
+    </mat-form-field>
+  </mat-step>
+
+</mat-horizontal-stepper>
